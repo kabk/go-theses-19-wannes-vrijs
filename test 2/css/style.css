@@ -1,0 +1,126 @@
+body {
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-right: 25px;
+    overflow-x: hidden;
+}
+.dif {
+    margin-top: 0px;
+    overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'DIN1451';
+  src: url('DIN1451.ttf') format('truetype');
+  
+}
+h1{
+    font-size: 4.5vw;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+h2{
+    font-size: 3vw;
+    line-height: 2em;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+p{
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+
+.text {
+    line-height: 3vw;
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'DIN1451', Helvetica, sans-serif;
+   
+    
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.center{
+    display: block;
+    float: left;
+}
+
+.shape-playground-1 {
+    width: 100vw;
+    height: 0vh;
+    margin: 0;
+}
+
+figcaption{
+    display: block;
+    font-size: 2.3em;
+    line-height: 1em;
+    text-transform: uppercase;
+    padding: 5px;
+    border: 4px solid black;    
+}
+.afbeelding{
+    width: 100%;
+}
+.figure_left{
+    position: absolute;
+    float: left;
+    z-index: -2;
+    padding: 0;
+    margin-left: 0px;
+    border: 0;
+    width: 25%;
+}
+
+#woede{
+    top: 500px;
+}
+
+#draggable {
+    height: 1VW;
+    width: 1VW;
+    border-radius: 50%;
+    background: black;
+    /*border: 10px solid orange;
+    margin: 0px 0px; 
+    transition: margin 1s;*/
+    z-index: -1;
+    -webkit-print-color-adjust:exact;
+}
+@media print { 
+    @page {
+        size: 210mm 297mm; 
+    }
+    html, body {
+        width: 210mm;
+        /* height: 297mm; */
+        height: 282mm;
+
+    }
+    .dif {
+    max-width: 100vw;
+    overflow-x: hidden;
+    }
+    body {
+        padding-top:15mm;
+    }
+
+}
+
+

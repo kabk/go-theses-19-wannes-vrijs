@@ -1,0 +1,71 @@
+div.works ul {
+  	list-style-type: none;
+  	padding: 1%;
+  	margin: 0%;
+  	font-size: 1vw;
+  	font-family: "Anselm ten";
+  	line-height: 1.05em;
+	top: 6%;
+	float: right;
+	width: 20%;
+	white-space: nowrap;
+	overflow: hidden;
+
+}
+div.works li:hover {
+	font-style: italic;
+	color: red;
+}
+
+
+	#een{
+		position: absolute;
+		top: 0px;
+		left: 1%;
+		font-size: 1em;
+	}
+
+	#twee{
+		position: absolute;
+		top: 0px;
+		font-size: 1em;
+		left: 15%;	
+		padding: 10;
+
+	}
+
+	#drie{
+		top: 0px;
+		font-size: 1em;
+		text-align: right;
+		position: absolute;
+		right: 15%;	
+		padding: 10;
+		margin: 10;
+	}
+
+	#vier{
+		top: 0px;
+		font-size: 1em;
+		text-align: right;
+		position: absolute;
+		right: 1%;
+	}
+
+	.menu{
+		font-family: "Graphik regular";
+		font-weight: 1px;
+		display: inline-block;
+		width: 100%;
+	}
+	.boven{
+		width: 80%;
+	}
+
+body {
+	margin: 0;
+	padding: 3px;
+}
+* {
+	box-sizing: border-box;
+}

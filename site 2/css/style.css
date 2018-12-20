@@ -1,0 +1,58 @@
+.rechts {
+	font-style: italic;
+	padding: 30px;
+}
+
+.title {
+	font-family: "Interstate", sans-serif;
+	font-weight: bold;
+	position: fixed;
+	top: 0px
+	left: 10px;
+	padding: 5px 5000px 5px 5px;
+	margin: 0px;
+	z-index: 1;
+	font-size: 2vw;
+	white-space: nowrap;
+
+
+}
+
+.paragraaf {
+  	color:red;
+  	font-size: 2vw;
+  	line-height: 1.2em;
+  	font-family: "Interstate", sans-serif;
+  	text-align: left;
+  	width: 40%;
+  	max-height: 30px;
+  	border-style: groove;
+  	border-width: 0px 8px;
+  	overflow: scroll;
+}
+
+.links {
+	text-transform: uppercase;
+}
+
+.dia {
+/*	float: left;
+	clear: left;*/
+	margin: 10px;
+	margin: auto 8px;
+	width: 30%;
+	display: inline-block;
+}
+
+/*li {
+	display: inline-block;
+}
+*/
+* {
+	box-sizing: border-box;
+}
+
+html, body{
+	padding: 0px;
+	margin: 0px;
+}
