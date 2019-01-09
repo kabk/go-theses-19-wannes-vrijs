@@ -230,7 +230,7 @@ figcaption{
     padding-top: 0px;
     }
     
-    .sidenav .sidenavbar{
+    .sidenav, .sidenavbar{
         visibility: hidden;
     }
 
