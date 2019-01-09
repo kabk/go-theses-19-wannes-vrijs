@@ -207,11 +207,11 @@ figcaption{
 @media print { 
     @page:left {
         size: 210mm 297mm;
-        margin: 14mm 8mm 14mm 0mm;
+        margin: 14mm 12mm 14mm 0mm;
     }
     @page:right {
         size: 210mm 297mm;
-        margin: 14mm 0mm 14mm 8mm;
+        margin: 14mm 0mm 14mm 12mm;
     }
 
     html {
