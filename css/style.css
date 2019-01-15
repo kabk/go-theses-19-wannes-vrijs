@@ -19,7 +19,7 @@ body {
 
 .sidenavbar{
     height: 100%;
-    width: 0.35vw;
+    width: 0.3vw;
     background-color: limegreen;
     position: fixed;
     z-index: 3;
