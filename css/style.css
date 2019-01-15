@@ -33,11 +33,11 @@ a{
     cursor: none;
     position: relative;
 }
-.sidenav a mark3{
+a mark3{
     color: limegreen;
 }
 
-.sidenav a:hover {
+a:hover {
     color: rgb(255,240,0) !important;
 }
 
@@ -46,6 +46,7 @@ a{
 .content {
     margin-left: 8vw;
     margin-right: 1.2vw;
+    position: relative;
 }
 
 p, h1, a {
@@ -121,14 +122,13 @@ mark2 {
     width: 100%;
 }
 figcaption{
-    font-size: 1.8vw;
+    font-size: 1.6vw !important;
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
     line-height: 1.2em;
     font-family: 'DIN1451', Helvetica, sans-serif;
-    color: black;
 }
 
 
@@ -300,6 +300,13 @@ figcaption{
     .content{
         margin-left: 55px;
         margin-right: 8px;
+    }
+    .sidenav{
+        padding-top: 3vw;
+    }
+    .start{
+        padding-top: 3vw;
+    }   
     }
     figcaption{
         font-size: 10px;
