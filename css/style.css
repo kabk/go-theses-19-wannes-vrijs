@@ -4,14 +4,13 @@
     /*src: url('PF Din Mono Medium.ttf') format('truetype');*/
 }
 body {
-    margin-top: 0px;
+    margin: 0px;
     overflow-x: hidden;
 }
 .sidenav {
     height: 100%;
     position: fixed;
     z-index: 1;
-    left: 0px;
     transition: 0.5s;
     padding-top: 25px;
     display: flex;
@@ -20,20 +19,19 @@ body {
 
 .sidenavbar{
     height: 100%;
-    width: 4px;
+    width: 0.38vw;
     background-color: limegreen;
     position: fixed;
     z-index: 3;
-    left: 92px
+    left: 6.7vw;
 }
 .sidenav a{
-    padding-left: 20px;
-    padding-right: 15px;
+    padding-left: 1.2vw;
     text-decoration: none;
     color: black;
     font-family: 'DIN1451';
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 2.6vw;
     line-height: 1.1em;
     transition: 0.3s;
 }
@@ -48,13 +46,13 @@ body {
 
 
 .content {
-    margin-left: 105px;
-    margin-right: 15px;
+    margin-left: 8vw;
+    margin-right: 1.2vw;
     position:relative;
 }
 p, h1 {
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 2.6vw;
     line-height: 1.1em;
     font-family: 'DIN1451', Helvetica, sans-serif; 
     margin: 0;
@@ -122,7 +120,7 @@ mark2 {
     width: 100%;
 }
 figcaption{
-    font-size: 1.4em;
+    font-size: 1.8vw;
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -256,15 +254,33 @@ figcaption{
         color: rgb(120,120,120);
         background-color: transparent;
 
+    } 
+
+}
+
+@media only screen and (max-width: 800px) {
+    .sidenavbar{
+        height: 100%;
+        width: 3px;
+        left: 57px;
     }
+    .sidenav a{
+        font-size: 20.8px;
+        padding-left: 10px;
 
-    
-
+    }
+    p, h1{
+        font-size: 20.8px;
+    }
+    .content{
+        margin-left: 70px;
+        margin-right: 10px
+    }
+    figcaption{
+    font-size: 12.8px;
+    }
+    .kwart{
+    width: 49%;
+    }
 }
-
-
-
-
-}
-
 

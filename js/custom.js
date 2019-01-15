@@ -8,9 +8,9 @@ var hoogte = document.body.clientHeight;
 var breedte = document.body.clientWidth;
 
 /* scroll naar top bij herladen */
-window.onbeforeunload = function () {
+/* window.onbeforeunload = function () {
         window.scrollTo(0,0);
-}
+} */
 
 /* maak een polygoon met mousemovement die de text pusht */
 function handleMove(e) {
