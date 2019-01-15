@@ -8,9 +8,9 @@ var hoogte = document.body.clientHeight;
 var breedte = document.body.clientWidth;
 
 /* scroll naar top bij herladen */
-/* window.onbeforeunload = function () {
+window.onbeforeunload = function () {
         window.scrollTo(0,0);
-} */
+}
 
 /* maak een polygoon met mousemovement die de text pusht */
 function handleMove(e) {
@@ -39,9 +39,10 @@ $('a[href^="#"]').on('click', function(event) {
     var target = $(this.getAttribute('href'));
     if( target.length ) {
         event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top-25
-        }, 1000);
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top-20
+            }, 1000);
+
     }
 });
 

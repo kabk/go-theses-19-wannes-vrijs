@@ -12,18 +12,18 @@ body {
     position: fixed;
     z-index: 1;
     transition: 0.5s;
-    padding-top: 2vw;
+    padding-top: 20px;
     display: flex;
     flex-direction:column;
 }
 
 .sidenavbar{
     height: 100%;
-    width: 0.37vw;
+    width: 0.35vw;
     background-color: limegreen;
     position: fixed;
     z-index: 3;
-    left: 6.7vw;
+    left: 6.6vw;
 }
 a{
     padding-left: 1.2vw;
@@ -44,16 +44,16 @@ a:hover {
 
 
 .content {
-    margin-left: 8vw;
+    margin-left: 7.9vw;
     margin-right: 1.2vw;
     position: relative;
 }
 
 p, h1, a {
     text-transform: uppercase;
-    font-size: 2.6vw;
+    font-size: 2.5vw;
     line-height: 1.1em;
-    font-family: 'DIN1451', Helvetica, sans-serif; 
+    font-family: 'DIN1451', sans-serif; 
     margin: 0;
     text-align: justify;
     text-justify: inter-word;
@@ -72,7 +72,7 @@ p, h1, a {
 
 
 .start{
-    padding-top: 2vw;
+    padding-top: 20px;
 }
 .opbouw{
     page-break-after: always;
@@ -301,13 +301,7 @@ figcaption{
         margin-left: 55px;
         margin-right: 8px;
     }
-    .sidenav{
-        padding-top: 3vw;
-    }
-    .start{
-        padding-top: 3vw;
-    }   
-    }
+
     figcaption{
         font-size: 10px;
     }
