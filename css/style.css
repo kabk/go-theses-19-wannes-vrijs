@@ -12,28 +12,26 @@ body {
     position: fixed;
     z-index: 1;
     transition: 0.5s;
-    padding-top: 25px;
+    padding-top: 2vw;
     display: flex;
     flex-direction:column;
 }
 
 .sidenavbar{
     height: 100%;
-    width: 0.38vw;
+    width: 0.37vw;
     background-color: limegreen;
     position: fixed;
     z-index: 3;
     left: 6.7vw;
 }
-.sidenav a{
+a{
     padding-left: 1.2vw;
     text-decoration: none;
     color: black;
-    font-family: 'DIN1451';
-    text-transform: uppercase;
-    font-size: 2.6vw;
-    line-height: 1.1em;
     transition: 0.3s;
+    cursor: none;
+    position: relative;
 }
 .sidenav a mark3{
     color: limegreen;
@@ -48,9 +46,9 @@ body {
 .content {
     margin-left: 8vw;
     margin-right: 1.2vw;
-    position:relative;
 }
-p, h1 {
+
+p, h1, a {
     text-transform: uppercase;
     font-size: 2.6vw;
     line-height: 1.1em;
@@ -73,7 +71,7 @@ p, h1 {
 
 
 .start{
-    padding-top: 25px;
+    padding-top: 2vw;
 }
 .opbouw{
     page-break-after: always;
@@ -98,6 +96,9 @@ mark2 {
     -webkit-print-color-adjust:exact;
 }
 
+.refs{
+    word-break: break-all !important;
+}
 
 
 .shape-playground-1 {
@@ -106,8 +107,8 @@ mark2 {
     top: -1em;
 }
 #draggable {
-    height: 1em;
-    width: 1em;
+    height: 16px;
+    width: 16px;
     border-radius: 50%;
     background: rgb(255,240,0);
     z-index: -1;
@@ -264,7 +265,7 @@ figcaption{
         width: 3px;
         left: 57px;
     }
-    .sidenav a{
+    a{
         font-size: 20.8px;
         padding-left: 10px;
 
@@ -274,13 +275,38 @@ figcaption{
     }
     .content{
         margin-left: 70px;
-        margin-right: 10px
+        margin-right: 10px;
     }
     figcaption{
-    font-size: 12.8px;
+        font-size: 12.8px;
     }
     .kwart{
-    width: 49%;
+        width: 49%;
     }
+}
+
+@media only screen and (max-width: 400px) {
+    .sidenavbar{
+        width: 2px;
+        left: 45px;
+    }
+    a{
+        font-size: 17px;
+        padding-left: 8px;
+    }
+    p, h1{
+        font-size: 17px;
+    }
+    .content{
+        margin-left: 55px;
+        margin-right: 8px;
+    }
+    figcaption{
+        font-size: 10px;
+    }
+    html{
+        overflow-x: hidden;
+    }
+
 }
 
